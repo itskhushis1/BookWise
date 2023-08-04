@@ -28,3 +28,7 @@ In this part, I explored several methods, namely:
 ## Conclusion
 ### 1. Simple Recommender
 Like the name suggests, this model offers the simple recommendation.  This model does not provide user-spesific recommendations but suitable for new user (have no cold-start problem)
+### 2. Content based filtering
+By applying a content based model, instead of having to rate 30 books to start the recommendation engine, users can just pick one book they liked for Goodreads to provide good recommendations for new users, making the process easier. This method is suitable for people who are looking for books that are similar to their favorite books, but this system cannot capture tastes and provide recommendations across genres 
+### 3. Collaborative Filtering
+Using this method, we can get more personalized recommendation but this model need users  data and not suitable for new users (have cold start problem).
