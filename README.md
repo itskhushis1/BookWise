@@ -7,25 +7,25 @@ Goals
 A. Exploratory Data Analysis
 In this part, I explore the data to get understanding about the dataset. There are several deep dive questions should be answered:
 
-How is the rating for all books distributed?
-How is the average rating per user distributed?
-How many ratings does a book usually get?
-How many ratings does a user usually give?
-Does the ratings count affect average rating?
-Which book has the highest rating and which book has the most ratings?
-How is the relationship between the number of ratings and the average rating?
-Who is the author with most books?
-Who is the most popular author?
-Who is the author that has good ratings book?
-How is the relationship between the number of pages and the year the book was published?
-What genre dominates the dataset?
-B. Modelling
-In this part, I explored several methods, namely:
+-How is the rating for all books distributed?
+-How is the average rating per user distributed?
+-How many ratings does a book usually get?
+-How many ratings does a user usually give?
+-Does the ratings count affect average rating?
+-Which book has the highest rating and which book has the most ratings?
+-How is the relationship between the number of ratings and the average rating?
+-Who is the author with most books?
+-Who is the most popular author?
+-Who is the author that has good ratings book?
+-How is the relationship between the number of pages and the year the book was published?
+-What genre dominates the dataset?
+-B. Modelling
+-In this part, I explored several methods, namely:
 
-Simple Recommender: This model offers generalized recommendations to every user based on popularity and average rating of the book.
-Content Based Filtering: This model suggests books to users based on the characteristics or attributes of the books. Using this data, the machine will measure the similarity of the books and then suggests books that are most similar to a particular book that a user liked.
-Collaborative Filtering: This system suggests book to users based on past reading history and collaboration of other users' preferences. This recommender systems provides personalized recommendation.
-Conclusion
+-Simple Recommender: This model offers generalized recommendations to every user based on popularity and average rating of the book.
+-Content Based Filtering: This model suggests books to users based on the characteristics or attributes of the books. Using this data, the machine will measure the similarity of the books and then suggests books that are most similar to a particular book that a user liked.
+-Collaborative Filtering: This system suggests book to users based on past reading history and collaboration of other users' preferences. This recommender systems provides personalized recommendation.
+-Conclusion
 1. Simple Recommender
 Like the name suggests, this model offers the simple recommendation. This model does not provide user-spesific recommendations but suitable for new user (have no cold-start problem)
 
