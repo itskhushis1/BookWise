@@ -18,7 +18,8 @@ In this part, I explore the data to get understanding about the dataset. There a
 10. Who is the author that has good ratings book? 
 11. How is the relationship between the number of pages and the year the book was published?
 12. What genre dominates the dataset?
-	
+
+ 
 ### B. Modelling 
 In this part, I explored several methods, namely:
 1. Simple Recommender: This model offers generalized recommendations to every user based on popularity and average rating of the book. 
